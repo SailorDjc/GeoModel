@@ -33,3 +33,6 @@ Note: <br>
 ```
 python run examples/geomodel_example.py
 ```
+## Geological modeling data
+The borehole data file is the borehole_data.dat file stored in the data folder. The borehole file format is divided into five columns of records: id, x, y, z, label.
+The borehole_data.map file is the stratigraphic sequence information.
