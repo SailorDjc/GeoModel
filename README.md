@@ -29,10 +29,10 @@ Note: <br>
 3.The dgl installation command is：conda install -c dglteam/label/cu116 dgl  <br>
 4.GDAL,Fiona,rasterio need to download the whl installation package for offline installation, the download URL is https://www.cgohlke.com/, in the selection of whl package, select the highest version of the library that specifies the version of python, and note that the package suffix is cp, which means the use of the CPython implementation, such as GDAL-3.4. 3-cp38-cp38-win_amd64.whl.
 5.Other dependencies can be installed in turn using pip install. <br>
-## Instructions for running the code
+## 2.Instructions for running the code
 ```
 python run examples/geomodel_example.py
 ```
-## Geological modeling data
+## 3.Geological modeling data
 The borehole data file is the borehole_data.dat file stored in the data folder. The borehole file format is divided into five columns of records: id, x, y, z, label.
 The borehole_data.map file is the stratigraphic sequence information.
