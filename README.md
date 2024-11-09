@@ -1,0 +1,2 @@
+# GeoModel
+GraphSAGE  GeoModelling
