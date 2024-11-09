@@ -15,7 +15,21 @@ GraphSAGE  GeoModelling
 * imageio
 * rdp
 * openpyxl
-This project uses python 3.8 environment, cuda11.6  <br>
-The pytorch installation command is：conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia   <br>
-The dgl installation command is：conda install -c dglteam/label/cu116 dgl  <br>
-Other dependencies can be installed in turn using pip install. <br>
+* Cython==0.29.35
+* pytetgen
+* pyproj
+* Shapely
+* GDAL
+* Fiona
+* geopandas
+* rasterio
+Note: <br>
+1.This project uses python 3.8 environment, cuda11.6  <br>
+2.The pytorch installation command is：conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia   <br>
+3.The dgl installation command is：conda install -c dglteam/label/cu116 dgl  <br>
+4.GDAL,Fiona,rasterio need to download the whl installation package for offline installation, the download URL is https://www.cgohlke.com/, in the selection of whl package, select the highest version of the library that specifies the version of python, and note that the package suffix is cp, which means the use of the CPython implementation, such as GDAL-3.4. 3-cp38-cp38-win_amd64.whl.
+5.Other dependencies can be installed in turn using pip install. <br>
+## Instructions for running the code
+```
+python run examples/geomodel_example.py
+```
