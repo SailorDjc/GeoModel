@@ -1,6 +1,6 @@
 # GeoModel
 GraphSAGE  GeoModelling
-## 1. Dependent Environment Installation Instructions
+## 1.Dependent Environment Installation Instructions
 * pytorch
 * dgl
 * pyvista
